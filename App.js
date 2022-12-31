@@ -3,6 +3,7 @@ function Home() {
     <Tab.Navigator>
       <Tab.Screen name="Feed" component={Feed} />
       <Tab.Screen name="Messages" component={Messages} />
+      <Text>hello</Text>
     </Tab.Navigator>
   );
 }
